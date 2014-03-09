@@ -1,0 +1,20 @@
+body{
+    background-image: url('../../public/image/bg/bg_tech.png');
+}
+
+#lien_page
+{
+    background: bottom;
+}
+
+article
+{
+    float:left;
+    margin: 20px; 
+}
+
+
+.appareil
+{
+    background: gainsboro;
+}

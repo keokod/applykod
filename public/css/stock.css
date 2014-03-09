@@ -1,0 +1,30 @@
+body{
+    background-image: url('../../public/image/bg/bg_mag.png');
+}
+
+#lien_page
+{
+    background: bottom;
+}
+
+article
+{
+    float:left;
+    margin: 20px; 
+}
+
+form#piece
+{
+    width:250px;
+}
+
+form#piece input
+{
+    width:150px;
+}
+
+#panier_piece
+{
+    background: #faf9e0;
+    padding:10px;
+}

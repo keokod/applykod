@@ -1,0 +1,14 @@
+body{
+    background-image: url('../../public/image/bg/bg_admin.png');
+}
+
+#lien_page
+{
+    background: bottom;
+}
+
+#role
+{
+ display:block;
+
+}

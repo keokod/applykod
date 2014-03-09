@@ -1,0 +1,379 @@
+body
+{
+    padding: 0;margin: 0;
+    font-family:trebuchet, helvetica, sans-serif;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+
+/*****************************menu horizontal fixe******************************************/
+header
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+#centrer
+{
+    text-align: center;
+}
+#menu_context /*MENU FIXE SELON LE CONTEXT DE LA PAGE*/
+{
+    background: black;
+    
+    padding:2px;
+    height: 25px;
+}
+
+span.titre_menu_fix
+{
+    display: inline-block;
+    font-weight: bolder;
+}
+span.titre_menu_fix a{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+#identifiant /*formulaire loggin mdp + password */
+{
+    color:white;
+    display: inline;
+    float: right;
+    width: 300px;
+}
+
+#flash_connexion
+{
+    clear: both;
+    position: fixed;
+    right: 120px;
+    top:30px;
+
+}
+/*mettre le bouton se connecter en image*/
+form#identifiant
+{
+    border: none;
+    padding: 0;
+}
+
+.identifiant /*faire descendre icon email+pass*/
+{
+    position: relative;
+    top:3px;
+
+}
+
+/******* menu fixe lorsque le membre s'est connecté'****/
+
+#deconnexion
+{
+    float: right;
+    text-decoration: none;
+    border-radius: 1px;
+    position: relative;
+    top:1px;
+    right:2px;
+}
+
+#On /*boutton se connecter on*/
+{ 
+    margin: 0 0 0 3px;
+    background:greenyellow;
+    border-radius: 2px;
+    position:relative;
+    top:1px;
+    right:2px;
+}
+
+/*****************************section*******************************************************/
+section
+{
+    display: inline;
+    float: left;
+    min-width: 650px;
+    min-height: 500px;
+}
+
+article
+{
+    margin: 0px 10px 10px 30px;
+    float: left;
+    display: block;
+    width: 450px;
+}
+
+/*****************************section DROITE*******************************************************/
+
+aside
+{
+    position: relative;
+    top : 50px;
+    float: left;
+    width:280px;
+}
+
+/************************/
+#moteur
+{
+    background:white;
+    float: right;
+}
+
+
+/*MENU ACCEUIL */
+nav ul /*menu h+v*/
+{
+    list-style: none;
+}
+
+.kill 
+{
+    color:red;
+}
+
+.droite
+{
+    float: right;
+    background: white;
+}
+
+.gauche
+{
+    float: left;
+
+}
+.piece
+{
+    background: moccasin;
+    border:1px solid orange;
+    margin:10px;
+}
+
+.intervention
+{
+    background: coral;
+    border:1px solid orange;
+    margin:10px;
+}
+
+
+.rouge {
+    color: red;
+}
+
+.affaire
+{
+    background: #e8e3fd;
+    border: solid 1px maroon;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+/*******************************PIED DE PAGE*********************************/
+
+
+#titre
+{
+    text-align: center;
+}
+footer
+{
+    clear: both;
+    background: black;
+    color:white;
+    text-align:center;
+    position: relative;
+    bottom:0px;
+    width:100%;
+}
+
+h1
+{
+    clear: both;
+    color:green;
+}
+
+h3{
+    text-decoration: underline;
+    color: #6ca6f0;
+}
+
+ul li a
+{
+    text-decoration: none;
+}
+
+table
+{
+    border: solid 1px gray;
+}
+
+th
+{
+    background: #ffccff;
+    width: 100px;
+}
+
+td
+{
+    background: #e5eeff;
+    width: 100px;
+}
+
+input
+{
+    background: #ccf4e6;
+}
+
+input:focus
+{
+    background: white;
+}
+
+.check_auth /*case à coher */
+{
+    margin: 20px;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    width: 280px;
+
+}
+
+.check_auth h3
+{
+    padding: 20px 0 0 0;
+    color: green;
+}
+.deco_auth
+{
+    color:gray;
+    margin: 0 0 20px 0;
+}
+
+.chk_auth
+{
+    width: 200px;
+    display: inline-block;
+    padding: 0 0 0 30px;
+}
+
+.checked
+{
+    background-color: red;
+    outline: thick solid red;
+}
+
+.erreur
+{
+    color: red;
+    top: 50px;
+    font-size: 12px;
+    display: block;
+    background: #fff0e9;
+    padding:10px;
+    border:1px red solid ;
+}
+
+/****************************************FORMULAIRE ANNUAIRE***********************/
+.resultat
+{
+    clear: both;
+    background:#def0fe;
+    border:solid #0091ff 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form#recherche
+{
+    margin-bottom: 30px;
+}
+
+form#annuaire
+{
+    width:100%;
+}
+form#annuaire input
+{
+    width:150px;
+}
+
+
+form
+{
+    padding: 20px;
+    margin:1px;
+    border: solid 1px #92147a;
+    border-radius: 5px;
+    background: #ffe7e5;
+    font-size: 12px;
+    float:  left;
+}
+
+form#connexion
+{
+    background: none;
+    padding:0px;
+    color:black;
+    float: right;
+    border:none;
+}
+
+label
+{
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+table
+{
+    margin-top: 30px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.information
+{
+    border:solid 1px #ffbea8;
+    padding:10px;
+    border-radius: 5px;
+    background: #e3fbe5;
+}
+
+.cache
+{
+    display:none;
+}
+
+.submit
+{
+    margin:20px;
+    background: #feb3a1;
+}
+
+
+/*******************************PIED DE PAGE*********************************/
+
+
+#Off
+{
+    text-align:  center;
+    
+    
+}
+
+/*PROJET STEPHANE NGOV V1.50**/

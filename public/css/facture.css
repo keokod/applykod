@@ -1,0 +1,42 @@
+body
+{
+    background-image: url('../../public/image/bg/bg_fact.png');
+}
+
+/********************* la listes des personnes ayant travaillé sur cette affaire *****************/
+ul#employe 
+{
+    list-style: none;
+}
+
+table tr td
+{
+    width: 250px;
+}
+table td#en_charge
+{
+    width: 140px;
+}
+
+.client
+{
+    float: right;
+    padding: 10px;
+}
+
+.client label
+{
+    width: 100px;
+}
+
+#facture
+{
+    
+}
+
+
+.totaux
+{
+    background: #f5c3e7;
+    padding:20px;
+}

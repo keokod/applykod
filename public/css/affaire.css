@@ -1,0 +1,16 @@
+body{
+    background-image: url('../../public/image/bg/bg_rece.png');
+}
+
+#lien_page
+{
+    background: bottom;
+}
+
+article
+{
+    float:left;
+    margin: 20px; 
+}
+
+

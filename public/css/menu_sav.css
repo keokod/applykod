@@ -1,0 +1,73 @@
+/*MENU ACCEUIL ===*/
+#horizontal ul
+{
+    margin: 0;
+    padding: 3px;
+    background: #ccccff;
+    text-align: center;
+}
+ul#horizontal
+{
+    padding: 0;
+    margin: 0;
+    color:white;
+    text-align: center;
+}
+
+#horizontal li
+{
+    display: inline;  
+    padding: 0px 10px 0 0;
+}
+
+#horizontal li a:hover
+{
+    color:#ff0069;
+}
+
+#vertical /*nav sous categories*/
+{
+    background: orange;
+    width: 150px;
+    font-size: 1.5em;
+    height: 600px;
+}
+
+#nav_vertical li a
+{
+    display: block;
+    background: violet;
+    color:gray;
+}
+
+
+#sous_cat li a
+{
+    font-size: 26px;
+    color:red;
+}
+
+#menu_action ul
+{
+padding: 0;
+margin: 0;
+border-right:  solid 2px gray;
+width: 150px;
+min-height: 600px;
+float: left;
+background: #8dd7c7;
+}
+
+#menu_action ul li a {
+    margin: 10px;
+    line-height: 2em;
+    color:green;
+}
+
+#menu_action ul li:hover{
+    background: white;
+}
+
+
+
+
