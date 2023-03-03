@@ -15,3 +15,5 @@ le fichier se trouve dans:
 avec cette commande pour mettre à jour le bullseye et l'upgrader. 
 sudo apt-get update
 sudo apt-get upgrade
+
+après cette commande le /dev/root à un espace de 13Go dispo
