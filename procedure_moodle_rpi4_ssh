@@ -11,3 +11,7 @@ redémarrer le rpi4 et à l'aide de cette commande on peut retrouver ou se trouv
 grep -r -l -i "nom_SSD_wifi" /etc
 le fichier se trouve dans:
 /etc/wpa_supplicant/wpa_supplicant.conf
+
+avec cette commande pour mettre à jour le bullseye et l'upgrader. 
+sudo apt-get update
+sudo apt-get upgrade
