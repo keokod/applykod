@@ -5,3 +5,9 @@ Avec RPI imager cliquer sur la roue cranté configurer:
 - le ssd wifi ainsi que son mot de passe
 - le langage fr
 graver la micro-sd
+____________________________________________________________
+
+redémarrer le rpi4 et à l'aide de cette commande on peut retrouver ou se trouve le fichier de configuration du wifi:
+grep -r -l -i "nom_SSD_wifi" /etc
+le fichier se trouve dans:
+/etc/wpa_supplicant/wpa_supplicant.conf
