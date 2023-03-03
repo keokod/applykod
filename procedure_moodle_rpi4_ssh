@@ -15,5 +15,17 @@ le fichier se trouve dans:
 avec cette commande pour mettre à jour le bullseye et l'upgrader. 
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt-get update
 
 après cette commande le /dev/root à un espace de 13Go dispo
+
+_____________________________________________________________
+installer apache 2
+sudo apt install apache2*
+vérifier avec le navigteur en tappant 192.168.1.61 (wifi) ou 192.168.1.22 (ethernet filaire)
+
+sudo chown -R votre_user:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+sudo usermod -a -G www-data votre_user
+
+
