@@ -27,5 +27,9 @@ vérifier avec le navigteur en tappant 192.168.1.61 (wifi) ou 192.168.1.22 (ethe
 sudo chown -R votre_user:www-data /var/www/html/
 sudo chmod -R 770 /var/www/html/
 sudo usermod -a -G www-data votre_user
+rebooter le rapi4
+
+sudo apt install php php-mbstring #(mbstring est une extension de php qui permet de gérer les chaines de caractères dont les caractères sont codés sur plusieurs octets)
+sudo apt install mariadb-server
 
 
